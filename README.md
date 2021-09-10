@@ -1,1 +1,1 @@
-# TaroEventSlow
+快速滚动外层scrollView时，内层scrollView会触发滚动
