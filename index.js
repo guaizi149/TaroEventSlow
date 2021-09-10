@@ -28,26 +28,11 @@ export default class Index extends Component {
 			e,
 		)
 	}
-	click = (e) => {
-		console.log(
-			'%c 🥃 click: ',
-			'font-size:20px;background-color: #93C0A4;color:#fff;',
-			new Date().getTime(),
-			e,
-		)
-		e.stopPropagation()
-		this.setState({ count: this.state.count + 1 })
-	}
-	clickOut = () => {
-		console.log('%c 🍐 clickOut: ', 'font-size:20px;background-color: #4b4b4b;color:#fff;');
-
-	}
 
 	render() {
 		const { showBackTop, count } = this.state
 		return (
 			<View className="index" onClick={this.clickOut}>
-				<View onClick={this.click} className="click"></View>
 				<Text>{count}</Text>
 				<ScrollView
 					onScroll={this.onScrollOuter}
