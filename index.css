@@ -1,0 +1,45 @@
+.outer {
+	width: 400px;
+	height: 400px;
+	margin-bottom: 10px;
+	background-color: red;
+}
+.inner {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	background-color: yellow;
+	flex: none;
+}
+.inner-container {
+	align-items: center;
+	justify-content: center;
+}
+.index {
+	position: relative;
+	overflow: hidden;
+}
+.outer-scroll {
+	width: 100%;
+	height: 800px;
+}
+.inner-scroll {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100px;
+}
+.Back {
+	position: absolute;
+	left: 0;
+	top: 600px;
+	width: 150px;
+	height: 50px;
+	background-color: green;
+}
+
+.click {
+	width: 100px;
+	height: 100px;
+	background:red;
+}
